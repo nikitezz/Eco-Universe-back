@@ -17,4 +17,22 @@ class HomeController extends Controller
     public function home(){
         return view('two.index');
     }
+    public function climate(){
+        return view('climate.index');
+    }
+    public function water(){
+        return view('water.index');
+    }
+    public function air(){
+        return view('air.index');
+    }
+    public function biodiversity(){
+        return view('biodiversity.index');
+    }
+    public function resources(){
+        return view('resources.index');
+    }
+    public function thesoil(){
+        return view('thesoil.index');
+    }
 }

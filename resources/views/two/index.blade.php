@@ -42,21 +42,21 @@
         </div>
         <div class="services-row">
             <div class="services-card services-style  card-one" style="background: url({{asset("images/11.jpg")}});background-size: cover;">
-                <a href="./climate/index.html">
+                <a href="{{route('climat')}}">
                     <div class="services-card-img">
                         <p class="title-card">Изменение климата</p>
                     </div>
                 </a>
             </div>
             <div class="services-card services-style card-two" style="background: url({{asset("images/12.jpg")}}); background-size: cover;">
-                <a href="./water/index.html">
+                <a href="{{route('water')}}">
                     <div class="services-card-img">
                         <p class="title-card">Загрязнение водных ресурсов</p>
                     </div>
                 </a>
             </div>
             <div class="services-card services-style card-three" style="background: url({{asset("images/13.jpg")}}); background-size: cover;">
-                <a href="./air/index.html">
+                <a href="{{route('air')}}">
                     <div class="services-card-img">
                         <p class="title-card">Загрязнение воздуха</p>
                     </div>
@@ -65,21 +65,21 @@
         </div>
         <div class="services-row">
             <div class="services-card services-style  card-four" style="background: url({{asset("images/14.jpeg")}}); background-size: cover;">
-                <a href="./biodiversity/index.html">
+                <a href="{{route('biodiversity')}}">
                     <div class="services-card-img">
                         <p class="title-card">Утрата биоразно - <br>образия</p>
                     </div>
                 </a>
             </div>
             <div class="services-card services-style card-five" style="background: url({{asset("images/15.jpg")}}); background-size: cover;">
-                <a href="./resources/index.html">
+                <a href="{{route('resources')}}">
                     <div class="services-card-img">
                         <p class="title-card">Истощение природных ресурсов</p>
                     </div>
                 </a>
             </div>
             <div class="services-card services-style card-six" style="background: url({{asset("images/16.webp")}}); background-size: cover;">
-                <a href="./thesoil/index.html">
+                <a href="{{route('thesoil')}}">
                     <div class="services-card-img">
                         <p class="title-card">Загрязнение почвы</p>
                     </div>
