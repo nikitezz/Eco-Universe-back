@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{asset("css/csstwo/style.css")}}">
     <link rel="shortcut icon" href="/img/icon.png" type="image/x-icon">
     <title>Eco Universe</title>
 </head>
@@ -20,7 +20,7 @@
                 </ul>
             </nav>
         </div>
-        <img src="/img/cloud.png" alt="" class="cloud-animation">
+        <img src="{{asset("images/cloud.png")}}" alt="" class="cloud-animation">
         <div class="espaço"></div>
         <div class="globe"></div>
         <canvas class="webgl"></canvas>
@@ -31,7 +31,7 @@
             <p> Добро пожаловать на наш сайт, посвященный изучению экологии – ключевого аспекта понимания и сохранения нашей планеты для будущих поколений.</p>
         </div>
         <div class="block-arrow">
-            <img src="/img/down-arrow.png" alt="" class="down-arrow">
+            <img src="{{asset("images/down-arrow.png")}}" alt="" class="down-arrow">
         </div>
     </div>
 </header>
@@ -41,21 +41,21 @@
             Экологические проблемы и пути их решения..
         </div>
         <div class="services-row">
-            <div class="services-card services-style  card-one">
+            <div class="services-card services-style  card-one" style="background: url({{asset("images/11.jpg")}});background-size: cover;">
                 <a href="./climate/index.html">
                     <div class="services-card-img">
                         <p class="title-card">Изменение климата</p>
                     </div>
                 </a>
             </div>
-            <div class="services-card services-style card-two">
+            <div class="services-card services-style card-two" style="background: url({{asset("images/12.jpg")}}); background-size: cover;">
                 <a href="./water/index.html">
                     <div class="services-card-img">
                         <p class="title-card">Загрязнение водных ресурсов</p>
                     </div>
                 </a>
             </div>
-            <div class="services-card services-style card-three">
+            <div class="services-card services-style card-three" style="background: url({{asset("images/13.jpg")}}); background-size: cover;">
                 <a href="./air/index.html">
                     <div class="services-card-img">
                         <p class="title-card">Загрязнение воздуха</p>
@@ -64,21 +64,21 @@
             </div>
         </div>
         <div class="services-row">
-            <div class="services-card services-style  card-four">
+            <div class="services-card services-style  card-four" style="background: url({{asset("images/14.jpeg")}}); background-size: cover;">
                 <a href="./biodiversity/index.html">
                     <div class="services-card-img">
                         <p class="title-card">Утрата биоразно - <br>образия</p>
                     </div>
                 </a>
             </div>
-            <div class="services-card services-style card-five">
+            <div class="services-card services-style card-five" style="background: url({{asset("images/15.jpg")}}); background-size: cover;">
                 <a href="./resources/index.html">
                     <div class="services-card-img">
                         <p class="title-card">Истощение природных ресурсов</p>
                     </div>
                 </a>
             </div>
-            <div class="services-card services-style card-six">
+            <div class="services-card services-style card-six" style="background: url({{asset("images/16.webp")}}); background-size: cover;">
                 <a href="./thesoil/index.html">
                     <div class="services-card-img">
                         <p class="title-card">Загрязнение почвы</p>

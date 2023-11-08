@@ -18,4 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/start',[\App\Http\Controllers\HomeController::class,'index'])->name('start');
+Route::get('/home',[\App\Http\Controllers\HomeController::class,'home'])->name('home');
 

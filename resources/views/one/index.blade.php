@@ -21,7 +21,7 @@
                 <span class="circle" aria-hidden="true">
                 <span class="icon arrow"></span>
                 </span>
-            <a href="/two/index.html"><span class="button-text">Learn More</span></a>
+            <a href="{{route('home')}}"><span class="button-text">Learn More</span></a>
         </button>
     </div>
 </div>
